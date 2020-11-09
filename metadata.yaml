@@ -1,5 +1,5 @@
-homepage: "https://github.com/precariostecnicos/Hubspot"
-documentation: "https://github.com/precariostecnicos/Hubspot"
+homepage: "https://www.luratic.com"
+documentation: "https://www.luratic.com/posts/templates/tags/fitanalytics-fit-finder/"
 versions:
   - sha: d47b2ab88d6d161a3bc4b16979edd797b307e4a1
     changeNotes: Initial release.
