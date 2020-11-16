@@ -2,8 +2,10 @@ homepage: "https://www.luratic.com"
 documentation: "https://www.luratic.com/posts/templates/tags/fitanalytics-fit-finder/"
 versions:
   # Latest version
+  - sha: 8b7097f5f1a794f461ecaffbbd73bd8dfc4e64ae
+    changeNotes: Fix bugs and several improves.
+  # Older versions  
   - sha: fd446249c165f3d2b5e73b086e6a416d07df02db
     changeNotes: Improve and update documentation.
-  # Older versions  
   - sha: d47b2ab88d6d161a3bc4b16979edd797b307e4a1
     changeNotes: Initial release.
