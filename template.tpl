@@ -76,12 +76,12 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const injectScript = require('injectScript');
 //const log = require('logToConsole');
 
-const encodeUriComponent = require('encodeUriComponent');
+const encodeUri = require('encodeUri');
 //log("data", data);
-const name = encodeUriComponent(data.name);
+const name = encodeUri(data.name);
 const type = '/' + data.type;
 const trackingUrl = 'https://integrations.fitanalytics.com/shop/' + name + type + '.js';
-injectScript(trackingUrl,data.gtmOnSuccess,data.gtmOnFailure,'hubspot');
+injectScript(trackingUrl,data.gtmOnSuccess,data.gtmOnFailure,'fitFindergi');
 
 
 ___WEB_PERMISSIONS___
